@@ -77,7 +77,7 @@ async def test2(ctx):
 async def on_ready():
     print("bot connected")
     # change status to online
-    await bot.change_presence(activity=discord.Game("online"))
+    await bot.change_presence(activity=discord.Game("FÄRG"))
 
 
 bot.run(Token)
